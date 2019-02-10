@@ -1,0 +1,60 @@
+
+*Instalações necessárias 
+
+node express, nodemon, postman, bodyParser
+
+*Cria-se model, repositorie, controller, routers, atribuir a rota ao modelo express.
+
+*Autenticação
+
+ async authenticate(Email,Senha){
+        this._base._model.findOne({email: Email, senha:Senha});
+    }
+
+    npm install --save md5
+    const md5 = require('md5');
+
+*Importar validação para  controller do usuario
+
+*Cria-se um repositorie base e controller base
+
+    importa controller base para controller usuario
+
+
+*Middelewares
+api -> middelewares -> rotas -> controller -> repository -> banco
+ faz tratamento das req antes de chegar ao final
+ 
+ app.use('/api/usuario',O middelewares entra aqui, usuarioRouter);// express.js
+
+utilizando token(JSonWebToken) no middelewares
+npm install jsonwebtoken --save
+
+em rota usuario: importa o middelewares, lista no get " router.get('/', auth, _ctrl.get); "
+trycacth para verificar //authenticate.js
+criar variavel do hash do token md5 no variables.js
+md5 generator para gerar a chave 
+
+gerar token para o usuario fazer a req.
+criar metodo autenticar no controller
+ir em rota do usuario, 
+
+ajustar routers com o auth
+
+ajustar controller de produto e categoria de acordo com o  de usuario
+
+**********
+
+ionic
+
+cores primarias variables.scss
+
+ionic g page login, categoria, produtos, meuspedidos, minhaconta
+
+deletar a home, do dir, app.modules e app.components
+
+adicionar rootpage(inicial) no app.components = 'NomeDaClasseDaPage'
+
+abrir produtos em categoria.html e fazer a função para abrir no categoria.ts
+
+adicionar tabs no tabs.html

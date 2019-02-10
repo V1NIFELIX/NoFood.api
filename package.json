@@ -1,0 +1,18 @@
+{
+  "name": "nofood.api",
+  "version": "1.0.0",
+  "description": "Api feita em nodejs para utilização do app NoFood",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Welington Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.4.8"
+  }
+}
