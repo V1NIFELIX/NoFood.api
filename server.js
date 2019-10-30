@@ -7,10 +7,11 @@ app.listen(variables.Api.port, ()=>{
     console.info(`Api incializado com sucesso na porta ${variables.Api.port}`);
 });
 
-/*
 
+
+
+//INICIANDO SERVIDOR
 app.listen(3000, ()=>{
     console.info('Api incializado com sucesso na posta 3000');
 })
 
-*/
